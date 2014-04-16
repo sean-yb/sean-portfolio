@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="author" content="Sean Gracy">
+    <meta name="description" content="My name is Sean Gracy, and I am a front-end web developer and designer! Come take a look at my portfolio!">
+    <meta name="keywords" content="web developer, web design, graphic design, sean gracy, wordpress, html5, css3, javascript, jquery, php, mysql, photoshop, illustrator">
+	<title>Sean Gracy | Web Developer</title>
+    <link rel="icon" href="img/logo_icon.png">
+    <link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Archivo+Narrow:700,400' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <meta name="viewport" content="initial-scale=1.0,width=device-width,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+</head>
+<body>
+	<header class="fixedheader">
+    	<section class="contain">
+        	<img class="logothumb" src="img/logo.png">
+            <div class="nav1">
+            	<a href="#welcome" class="navbtn">Welcome</a>
+                <a href="#portfolio" class="navbtn">Portfolio</a>
+                <a href="#resume" class="navbtn">Resume</a>
+                <a href="#contact" class="navbtn">Contact</a>
+            </div>
+        </section>
+    </header>
+    <main>
+    	<a id="welcome"></a>
+    	<div class="box1">
+        	<img class="logomain" src="img/logo.png">
+			<nav>
+            	<section class="contain">
+                    <a href="#about" class="navbtn2">About</a>
+                    <a href="#portfolio" class="navbtn2">Portfolio</a>
+                    <a href="#resume" class="navbtn2">Resume</a>
+                    <a href="#contact" class="navbtn2">Contact</a>
+            	</section>
+			</nav>
+            <section class="contain">
+                <p class="welcome"><strong>Hello!</strong> My name is <strong>Sean Gracy</strong>. Welcome to my portfolio site!</p>
+			</section>
+        </div>
+        <div class="box2">
+        <a id="about"></a>
+        	<section class="contain">
+                <div class="infobox">
+                	<h1>About</h1>
+                    <img src="img/intro_icon_me.png">
+                    <p>I am a <strong>front-end web developer and designer</strong> who has a passion for coding, designing, and learning new techniques to create awesome websites. Over the past two years, I have refined my developer skills with <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>Javascript</strong>, and <strong>JQuery</strong> while improving my skills with <strong>PHP</strong>, <strong>MySQL</strong>, <strong>XML</strong>, <strong>JSON</strong>, <strong>Graphic Design</strong>, and <strong>Wordpress</strong>.</p>
+                </div>
+                <div class="infobox">
+                	<h1>Education</h1>
+                    <img src="img/intro_icon_hat.png">
+                    <p>I have an <strong>Associate’s degree</strong> in Multimedia Technologies with a concentration in <strong>Web and Interactive Design</strong> from Pittsburgh Technical Institute. With the knowledge I gained from school and from hands-on experience, I have built interactive projects that showcase my abilities with <strong>responsive web design</strong>, <strong>front-end web development</strong>, and <strong>back-end web development</strong>.</p>
+                </div>
+                <div class="thanksbox">
+                	<p>Please feel free to browse my site and <a href="#portfolio">view my portfolio</a>. Contact me if you have any questions or if you would like me to begin creating a sweet website for you.</p>
+                	<p>Thank you very much! And enjoy your stay.</p>
+                </div>
+			</section>
+        </div>
+    	<div class="box1">
+        <a id="portfolio"></a>
+        	<section class="contain">
+            	<h1>Portfolio</h1>
+                <div class="portpiece">
+                    <div class="portpiecebuttons">
+                        <a href="elder/index.html" target="_blank">Elder Music Project</a>
+                        <a href="elder/index.html" target="_blank"><img src="img/port_display_elder.png"></a>
+                    </div>
+                    <div class="portpieceinfo">
+                        <h3><strong>Talent Showcased:</strong> Server-side functionality, client-side functionality, responsive design</h3>
+                        <h3><strong>Objective:</strong> Teach the user how to improvise music on guitar</h3>
+                        <h3><strong>Target Audience:</strong> Teenagers and young adults</h3>
+                        <h3><strong>Highlights:</strong></h3>
+                        <ul>
+                            <li>On the homepage, the user can load a random music track based on their selection of a music key, interval, and tempo from a form.</li>
+                            <li>AJAX calls are used with JavaScript and jQuery to dynamically load content on the website in order to decrease loading times and to make page transitions clean.</li>
+                            <li>Illustrated music chords and scales are loaded onto a generated page based off the user’s selection. The chords can be clicked on to display variations of the chord.</li>
+                            <li>Descriptions, tooltips, and an instructional video are featured to guide users through each page and show them how each feature works.</li>
+                            <li>Over 180 random tracks are loaded from an external storage source to save file space on the website.</li>
+                            <li>Responsive design allows page elements to reposition proportionally based on what device the user has.</li>
+                        </ul>
+                        <h3><strong><a href="elder/index.html" target="_blank">Launch Piece</a></strong></h3>
+                    </div>
+                </div>
+				<div class="portpiece">
+                    <div class="portpiecebuttons">
+                        <a href="marc/index.php" target="_blank">Marc Music Market</a>
+                        <a href="marc/index.php" target="_blank"><img src="img/port_display_marc.png"></a>
+                    </div>
+                    <div class="portpieceinfo">
+                        <h3><strong>Talent Showcased:</strong> Server-side functionality, database management, responsive design</h3>
+                        <h3><strong>Objective:</strong> Inform the user about instruments for sale</h3>
+                        <h3><strong>Target Audience:</strong> Teenagers and adults</h3>
+                        <h3><strong>Highlights:</strong></h3>
+                        <ul>
+                            <li>Information about each product is stored within a MySQL database and is transferred over to the webpage using PHP.</li>
+                            <li>When logged in as an administrator, the user can add and remove products, as well as store locations. To try it, log in with the username of “admin” and password of “admin”.</li>
+                            <li>An interactive panel on the top of the products page allows the user to be more selective about what type of products the page displays.</li>
+                        </ul>
+                        <h3><strong><a href="marc/index.php" target="_blank">Launch Piece</a></strong></h3>
+                    </div>
+                </div>
+                <div class="portpiece">
+                    <div class="portpiecebuttons">
+                        <a href="fantisi/index.html" target="_blank">Fantisi Footwear</a>
+                        <a href="fantisi/index.html" target="_blank"><img src="img/port_display_fantisi.png"></a>
+                    </div>
+                    <div class="portpieceinfo">
+                        <h3><strong>Talent Showcased:</strong> Interactivity, UX development, client-side functionality</h3>
+                        <h3><strong>Objective:</strong> Customize a pair of shoes for the user</h3>
+                        <h3><strong>Target Audience:</strong> Teenagers and adults</h3>
+                        <h3><strong>Highlights:</strong></h3>
+                        <ul>
+                            <li>Interactive control panels allow the user to customize a pair of shoes with over 400 possible choice combinations.</li>
+                            <li>Shopping cart and composite image update dynamically as the user clicks on different customization items.</li>
+                            <li>Hand-coded Javascript causes cookies to store the information the user has selected so it can be referenced in a checkout area.</li>
+                        </ul>
+                        <h3><strong><a href="fantisi/index.html" target="_blank">Launch Piece</a></strong></h3>
+                    </div>
+                </div>
+			</section>
+        </div>
+        <div class="box2">
+        <a id="resume"></a>
+        	<section class="contain">
+                <h1>Resume</h1>
+				<div class="pdfcontainer">
+                	<a href="pdf/resume.pdf">Download Resume</a>
+                    <img class="embed" src="pdf/resume.png">
+                </div>
+			</section>
+        </div>
+        <div class="box1">
+        <a id="contact"></a>
+        	<section class="contain">
+                <h1>Contact</h1>
+				<div class="contactinfo">
+                	<a href="tel:4126003986">
+                        <div id="phone-btn" class="contactbtn">
+                            <h2><strong>Phone</strong></h2>
+                            <img src="img/contact_icon_phone.png">
+                            <h2><strong>412-600-3986</strong></h2>
+                        </div>
+					</a>
+                    <a href="mailto:sean@seangracy.com">
+                        <div id="phone-btn" class="contactbtn">
+                            <h2><strong>E-mail</strong></h2>
+                            <img src="img/contact_icon_email.png">
+                            <h2><strong>sean@seangracy.com</strong></h2>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/pub/sean-gracy/89/84/6b0">
+                        <div id="phone-btn" class="contactbtn">
+                            <h2><strong>Linkedin</strong></h2>
+                            <img src="img/contact_icon_linkedin.png">
+                            <h2><strong>Sean Gracy</strong></h2>
+                        </div>
+                    </a>
+                </div>
+			</section>
+        </div>
+    </main>
+    <footer>
+    	<h6>Copyright &copy; 2014 Sean Gracy</h6>
+        <h6>All rights reserved</h6>
+    </footer>
+</body>
+</html>

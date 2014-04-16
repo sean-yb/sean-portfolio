@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Fantisi Footwear</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/customize.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/mobile-nav.js"></script>
+    <script src="js/slide.js"></script>
+    <script src="js/cookie_code.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/shoe-body.js"></script>
+    <script src="js/shoe-lace.js"></script>
+    <script src="js/shoe-color.js"></script>
+    <script src="js/shoe-insole.js"></script>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <meta name="viewport" content="initial-scale=1.0,width=device-width,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+</head>
+
+<body>
+	<header>
+        <img src="img/logo.png">
+        <nav id="main-nav">
+            <a href="index.html" class="navbtn">Home</a>
+            <a href="about.html" class="navbtn">About</a>
+            <a href="customize.html" class="navbtn">Customize</a>
+    	</nav>
+        <img src="img/menu-icon.png" id="menubtn">
+    </header>
+    <nav id="responsive-dropnav">
+        	<a href="index.html" class="navbtn">Home</a>
+            <a href="about.html" class="navbtn">About</a>
+            <a href="customize.html" class="navbtn">Customize</a>
+	</nav>
+    
+    <div id="main">
+        <div id="custom-zone">
+        	<nav id="shoe-nav">
+            	<a id="body-nav" class="navbtn">Body</a>
+            	<a id="detail-nav" class="navbtn">Color</a>
+            	<a id="lace-nav" class="navbtn">Lace</a>
+                <a id="insole-nav" class="navbtn">Insole</a>
+            </nav>
+        	<div id="body-buttons" class="buttons">
+            	<h1>Body</h1>
+            	<div id="body_btn_1" class="item bodyitem">
+                    <div class="iteminfo">
+                        <img src="img/thumb_leather.jpg">
+                        <h3>Canvas</h3>
+                        <h3>$29.99</h3>	 
+                	</div> 
+                </div>
+                <div id="body_btn_2" class="item bodyitem">
+                	<div class="iteminfo">
+                        <img src="img/thumb_canvas.jpg">
+                        <h3>Dress</h3>
+                        <h3>$69.99</h3>
+                	</div>
+                </div>
+                <div id="body_btn_3" class="item bodyitem">
+					<div class="iteminfo">
+                        <img src="img/thumb_nylon.jpg">
+                        <h3>Running</h3>
+                        <h3>$59.99</h3> 
+                	</div>
+                </div>
+                <div id="body_btn_4" class="item bodyitem">
+					<div class="iteminfo">
+                        <img src="img/thumb_nylon.jpg">
+                        <h3>Tennis</h3>
+                        <h3>$39.99</h3> 
+                	</div>
+                </div>
+            </div>
+            <div id="detail-buttons" class="buttons">
+            	<h1>Color</h1>
+            	 <div id="detail_btn_1" class="color-black">
+					<div class="iteminfo">
+                	</div>
+                 </div>
+                 <div id="detail_btn_2" class="color-blue">
+					<div class="iteminfo">
+                	</div>
+                 </div>
+                 <div id="detail_btn_3" class="color-green">
+					<div class="iteminfo">
+                	</div>
+                 </div>
+                 <div id="detail_btn_4" class="color-red">
+					<div class="iteminfo">
+                	</div>
+                 </div>
+                 <div id="detail_btn_5" class="color-white">
+					<div class="iteminfo">
+                	</div>
+                 </div>
+                 <div id="detail_btn_6" class="color-yellow">
+					<div class="iteminfo">
+                	</div>
+                 </div>
+            </div>
+            <div id="lace-buttons" class="buttons">
+            	<h1>Extra Lace Package</h1>
+            	 <div id="lace_btn_1" class="color-black">
+					<div class="iteminfo">
+                	</div>
+                 </div>
+                 <div id="lace_btn_2" class="color-blue">
+					<div class="iteminfo">
+                	</div>
+                 </div>
+                 <div id="lace_btn_3" class="color-green">
+					<div class="iteminfo">
+                	</div>
+                 </div>
+                 <div id="lace_btn_4" class="color-red">
+					<div class="iteminfo">
+                	</div>
+                 </div>
+                 <div id="lace_btn_5" class="color-white">
+					<div class="iteminfo">
+                	</div>
+                 </div>
+                 <div id="lace_btn_6" class="color-yellow">
+					<div class="iteminfo">
+                	</div>
+                 </div>
+            </div>
+            <div id="insole-buttons" class="buttons">
+            	<h1>Insole</h1>
+            	 <div id="insole_btn_1" class="item">
+					<div class="iteminfo">
+                        <img src="img/thumb_padding.png">
+                        <h3>Pad</h3>
+                        <h3>$0.00</h3> 
+                	</div>
+                 </div>
+                 <div id="insole_btn_2" class="item">
+					<div class="iteminfo">
+                        <img src="img/thumb_gel.png">
+                        <h3>Gel</h3>
+                        <h3>$1.99</h3>
+                	</div>
+                </div>
+                 <div id="insole_btn_3" class="item">
+					<div class="iteminfo">
+                        <img src="img/thumb_foam.png">
+                        <h3>Foam</h3>
+                        <h3>$4.99</h3>	 
+                	</div>
+                 </div>
+            </div>
+            <div id="shoeimage-contain">
+                <div id="shoeimage">
+                    <div id="shoe_body"><img src="img/blank.png"></div>
+                    <div id="shoe_insole"></div>
+                    <div id="shoe_lace"></div>
+                </div>
+            </div>
+            <div id="cart">
+                <div class="cartlist">
+                    <ul class="cartul">
+                        <li class="cartli">Body: <h4 id="cart_body_type"></h4></li>
+                        <li class="cartli">Color: <h4 id="cart_color_type"></h4></li>
+                        <li class="cartli">Insole: <h4 id="cart_insole_type"></h4></li>
+                        <li class="cartli">Lace: <h4 id="cart_lace_type"></h4></li>
+                    </ul>
+                </div>
+                <div class="cartlist">
+                    <ul class="cartul">
+                        <li class="cartli">Price: <h4 id="cart_body_price"></h4></li>
+                        <li class="cartli">Price: <h4 id="cart_color_price"></h4></li>
+                        <li class="cartli">Price: <h4 id="cart_insole_price"></h4></li>
+                        <li class="cartli">Price: <h4 id="cart_lace_price"></h4></li>
+                        <li class="cartli" id="total">Total Price: <h4 id="cart_total"></h4></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="checkout">
+            	<h1><a id="checkoutbtn">Checkout</a></h1>
+            </div>
+        </div>
+        </div>
+    <footer>
+    	<h6>Fantasi Footwear is a student project created by Sean Gracy (<a href="http://www.seangracy.com">www.seangracy.com</a>). All material on this site is fictitious, and was created for educational purposes only.</h6>
+    </footer>
+</body>
+</html>

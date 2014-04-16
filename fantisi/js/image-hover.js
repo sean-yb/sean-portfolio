@@ -1,0 +1,18 @@
+$(document).ready(function(){
+	$("#linkbtnAbout").mouseover(function(){
+		$("#about-img").fadeOut(300);
+		$("#about-img-hover").fadeIn(300);
+	});
+	$("#linkbtnAbout").mouseleave(function(){
+		$("#about-img").fadeIn(300);
+		$("#about-img-hover").fadeOut(300);
+	});
+	$("#linkbtnCustomize").mouseover(function(){
+		$("#customize-img").fadeOut(300);
+		$("#customize-img-hover").fadeIn(300);
+	});
+	$("#linkbtnCustomize").mouseleave(function(){
+		$("#customize-img").fadeIn(300);
+		$("#customize-img-hover").fadeOut(300);
+	});
+});

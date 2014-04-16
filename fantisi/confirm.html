@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Fantisi Footwear</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/customize.css">
+    <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/mobile-nav.js"></script>
+    <script src="js/slide.js"></script>
+    <script src="js/cookie_code.js"></script>
+    <script src="js/confirm.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <meta name="viewport" content="initial-scale=1.0,width=device-width,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+</head>
+
+<body>
+	<header>
+        <img src="img/logo.png">
+        <nav id="main-nav">
+            <a href="index.html" class="navbtn">Home</a>
+            <a href="about.html" class="navbtn">About</a>
+            <a href="customize.html" class="navbtn">Customize</a>
+    	</nav>
+        <img src="img/menu-icon.png" id="menubtn">
+    </header>
+    <nav id="responsive-dropnav">
+        	<a href="index.html" class="navbtn">Home</a>
+            <a href="about.html" class="navbtn">About</a>
+            <a href="customize.html" class="navbtn">Customize</a>
+	</nav>
+    
+    <div id="main">
+        <div id="custom-zone">
+        	<h5>Customization Zone</h5>
+            <h6>Confirm</h6>
+        	<div id="confirmation">
+            	<div id="shoeimage-contain">
+                    <div id="shoeimage">
+                        <div id="shoe_blank"><img src="img/shoes_blank.png"></div>
+                        <div id="shoe_body"></div>
+                        <div id="shoe_color"></div>
+                        <div id="shoe_insole"></div>
+                        <div id="shoe_lace"></div>
+                    </div>
+                </div>
+                <div id="cart">
+                    <div class="cartlist">
+                        <ul class="cartul">
+                            <li class="cartli">Body: <h4 id="cart_body_type"></h4></li>
+                            <li class="cartli">Color: <h4 id="cart_color_type"></h4></li>
+                            <li class="cartli">Insole: <h4 id="cart_insole_type"></h4></li>
+                            <li class="cartli">Lace: <h4 id="cart_lace_type"></h4></li>
+                        </ul>
+                    </div>
+                    <div class="cartlist">
+                        <ul class="cartul">
+                            <li class="cartli">Body Price: <h4 id="cart_body_price"></h4></li>
+                            <li class="cartli">Color Price: <h4 id="cart_color_price"></h4></li>
+                            <li class="cartli">Insole Price: <h4 id="cart_insole_price"></h4></li>
+                            <li class="cartli">Lace Price: <h4 id="cart_lace_price"></h4></li>
+                            <li class="cartli" id="total">Total Price: <h4 id="cart_total"></h4></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="cart">
+					<div id="shoe-size">
+                    	<h1>Shoe Size:
+                            <select>
+                                <option>6</option>
+                                <option>6.5</option>
+                                <option>7</option>
+                                <option>7.5</option>
+                                <option>8</option>
+                                <option>8.5</option>
+                                <option>9</option>
+                                <option>9.5</option>
+                                <option>10</option>
+                                <option>10.5</option>
+                                <option>11</option>
+                                <option>11.5</option>
+                                <option>12</option>
+                                <option>12.5</option>
+                                <option>13</option>
+                                <option>13.5</option>
+                                <option>14</option>
+                            </select>
+                        </h1>
+					</div>
+                </div>
+            </div>
+            <div id="checkout">
+            	<h1><a id="checkoutbtn" href="index.html">Order</a></h1>
+            </div>
+        </div>
+        </div>
+    <footer>
+    	<h6>Fantasi Footwear is a student project created by Sean Gracy (<a href="http://www.seangracy.com">www.seangracy.com</a>). All material on this site is fictitious, and was created for educational purposes only.</h6>
+    </footer>
+</body>
+</html>

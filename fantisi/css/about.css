@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	background-image:url(../img/background_img_03.jpg);
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+}
+#main{
+	animation:intro 1s ease-in;
+	-webkit-animation:intro 1s ease-in;
+}
+	#main h1{
+		text-align:center;
+		font-size:1.5em;
+		font-weight:bold;
+		color:#EDFFF6;
+		text-transform:uppercase;
+		text-shadow: 0 3px 2px black;
+		padding:.5em 0;
+		margin:1em 0;
+		border-top:2px solid #1EAA8E;
+		border-bottom:2px solid #1EAA8E;
+	}
+	#main img{
+		max-width:250px;
+		width:100%;
+		margin:2em auto;
+		display:block;
+		border:6px solid rgba(139, 241, 255, 0.6);
+	}
+	#main h2{
+		text-align:center;
+		font-size:1.3em;
+		color:#EDFFF6;
+		text-shadow: 0 3px 2px black;
+		padding:.5em 0;
+		margin:1em 0;
+	}
+	#main h2 a{
+		color:#00FFCC;
+		transition:color .4s ease;
+		-moz-transition:color .4s ease;
+		-webkit-transition:color .4s ease;
+	}
+	#main h2 a:hover{
+		color:#ECC115;
+	}
+
+@media screen and (min-width:960px){
+#main h1{
+	font-size:2.5em;
+}
+#main img{
+	max-width:500px;
+}
+#main h2{
+	font-size:2em;
+}
+}

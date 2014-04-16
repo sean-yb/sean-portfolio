@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Elder Music Project</title>
+    <link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/style.css" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="img/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="img/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="img/mstile-144x144.png">
+    <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/responsive-nav.js"></script>
+    <script type="text/javascript" src="js/ajax-load.js"></script>
+    <script type="text/javascript" src="js/validate-form.js"></script>
+    <script type="text/javascript" src="js/backgrounds.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300|Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="initial-scale=1.0,width=device-width,maximum-scale=1,minimum-scale=1,user-scalable=yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+</head>
+<body>
+    <header id="main-header">
+        <nav id="mainnav">
+        	<a href="index.html" class="navbtn">HOME</a>
+            <a href="about.html" class="navbtn">ABOUT</a>
+            <a href="music.html" class="navbtn">MUSIC</a>
+            <a href="feedback.html" class="navbtn">FEEDBACK</a>
+        </nav>
+    </header>
+    <header id="mobile-header">
+        <div id="menu">
+            <img src="img/menu-icon.png" id="menubtn">
+		</div>
+        <nav id="dropnav">
+        	<a href="index.html" class="navbtn">HOME</a>
+            <a href="about.html" class="navbtn">ABOUT</a>
+            <a href="music.html" class="navbtn">MUSIC</a>
+            <a href="feedback.html" class="navbtn">FEEDBACK</a>
+        </nav>
+    </header>
+    <div id="main">
+        <div id="content">
+            <div class="box1">
+                <div class="contain">
+                    <div id="intro">
+                    	<img src="img/elder_logo.png">
+                        <h1>MUSIC TRACK PLAYER</h1>
+                    </div>
+                    <div id="generator">
+                        <form id="track_form" action="generate_track.php" method="get" enctype="multipart/form-data">
+                            <div id="large-form-contain">
+                            	<h1>Learn how to <strong>improvise</strong> along a music scale and how to make awesome guitar solos!</h1>
+                                <div class="form-contain">
+                                    <h2>1. Select a key</h2>
+                                    <select id="key-select" class="track-select" name="key">
+                                        <option value="">--</option>
+                                        <option value="a">A</option>
+                                        <option value="aSharp">A#/B♭</option>
+                                        <option value="b">B</option>
+                                        <option value="c">C</option>
+                                        <option value="cSharp">C#/D♭</option>
+                                        <option value="d">D</option>
+                                        <option value="dSharp">D#/E♭</option>
+                                        <option value="e">E</option>
+                                        <option value="f">F</option>
+                                        <option value="fSharp">F#/G♭</option>
+                                        <option value="g">G</option>
+                                        <option value="gSharp">G#/A♭</option>
+                                        <option value="?key">Random</option>
+                                    </select>
+                                </div>
+                                <div class="form-contain">
+                                    <h2>2. Select an interval</h2>
+                                    <select id="tone-select" class="track-select" name="tone">
+                                    	<option value="">--</option>
+                                        <option value="major">Major</option>
+                                        <option value="minor">Minor</option>
+                                        <option value="?tone">Random</option>
+                                    </select>
+                                </div>
+                                <div class="form-contain">
+                                    <h2>3. Select a tempo</h2>
+                                    <select id="tempo-select" class="track-select" name="tempo">
+                                    	<option value="">--</option>
+                                        <option value="slow">Slow</option>
+                                        <option value="medium">Medium</option>
+                                        <option value="fast">Fast</option>
+                                        <option value="?tempo">Random</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <h3>4. Begin jamming</h3>
+                            <div class="submit-style">
+                            	<input type="submit" value="Find Track">
+                        	</div>
+                        </form>
+                    </div><!--#generator close-->
+                    <h6>Need help? Follow along with this <a href="https://www.youtube.com/watch?v=yNcbNR2hZZM&feature=youtu.be" target="_blank">video demonstration</a>!</h6>
+                    <div id="icons">
+                    	<div class="icon-box">
+                        	<h1>Random Tracks</h1>
+                            <img src="img/icon-track.png">
+                            <p>A music track will be provided to you at random for your jamming pleasure</p>
+                        </div>
+                        <div class="icon-box">
+                        	<h1>Guitar Scales</h1>
+                            <img src="img/icon-scales.png">
+                            <p>Guitar scale diagrams will show you how to properly improvise</p>
+                        </div>
+                        <div class="icon-box">
+                        	<h1>Guitar Chords</h1>
+                            <img src="img/icon-chords.png">
+                            <p>Diagrams will show you which chords will go well with a particular key</p>
+                        </div>
+                    </div>
+                </div><!--.contain close-->
+            </div><!--#box1 close-->
+        </div><!--#content close-->
+    </div><!--#main close-->
+	<footer>
+    	<div class="contain">
+        	<div id="footernav">
+            	<a href="index.html" class="navbtn">HOME</a>
+                <a href="about.html" class="navbtn">ABOUT</a>
+                <a href="music.html" class="navbtn">MUSIC</a>
+                <a href="feedback.html" class="navbtn">FEEDBACK</a>
+            </div>
+            <h6>Elder Music Project is a student project created by Sean Gracy (<a href="http://www.seangracy.com">www.seangracy.com</a>).</h6>
+        </div>
+    </footer>
+</body>
+</html>
